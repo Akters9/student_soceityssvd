@@ -78,7 +78,7 @@
   img{
   width: 100%;
   display:block;
-  object-fit: cover;
+  /* object-fit: cover; */
   }
   
   .btn{
@@ -607,14 +607,16 @@ body {
 	margin-bottom: .5em;
 	font-weight: normal;
 }
-
+main.main-area {
+  padding: 0px 50px;
+}
 .card-content p {
 	font-size: 95%;
 }
 
 img {
   width: 100%;
-  height: auto;
+  height: 480px;
 }
 
 /* Flexbox styles */
